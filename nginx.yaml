@@ -7,13 +7,3 @@
       name: nginx
       state: latest
 
-
-
-- name: hi subbu install nginx 
-  hosts: web
-  become: yes
-  taks:
-  - name: insall nginx
-    ansible.builtin.dnf:
-      name: nginx
-      state: latest
